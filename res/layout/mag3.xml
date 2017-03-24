@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@raw/pg33"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_x="106dp"
+        android:layout_y="425dp" />
+
+      <TextView
+          android:id="@+id/t11"
+          android:layout_width="wrap_content"
+          android:layout_height="13dp"
+          android:layout_weight="1"
+          android:layout_x="275dp"
+          android:layout_y="452dp"
+          android:background="#aa0000"
+          android:gravity="center"
+          android:text="9.5"
+          android:textSize="10pt" />
+
+      <ImageView
+          android:id="@+id/i2"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:layout_x="205dp"
+          android:layout_y="430dp"
+          android:src="@android:drawable/arrow_up_float" />
+
+      <ImageView
+          android:id="@+id/i1"
+          android:layout_width="37dp"
+          android:layout_height="33dp"
+          android:layout_x="268dp"
+          android:layout_y="438dp"
+          android:src="@android:drawable/arrow_up_float" />
+
+      <ImageView
+          android:id="@+id/imageView1"
+          android:layout_width="113dp"
+          android:layout_height="56dp"
+          android:layout_x="227dp"
+          android:layout_y="424dp"
+          android:src="@raw/nxt3" />
+
+      <ImageView
+          android:id="@+id/imageView2"
+          android:layout_width="36dp"
+          android:layout_height="26dp"
+          android:layout_x="203dp"
+          android:layout_y="432dp"
+          android:src="@raw/buttons" />
+
+</AbsoluteLayout>

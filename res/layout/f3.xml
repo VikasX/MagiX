@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@raw/second"
+    android:orientation="vertical" >
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="247dp"
+        android:text="This is small gameplay app numbers magic go on to play!" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:layout_x="0dp"
+        android:layout_y="104dp"
+        android:src="@raw/bck1" />
+
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="137dp"
+        android:layout_height="34dp"
+        android:layout_x="93dp"
+        android:layout_y="58dp"
+        android:text="Button" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_x="78dp"
+        android:layout_y="51dp"
+        android:src="@raw/aboutmag" />
+
+    <Button
+        android:id="@+id/bx2"
+        android:layout_width="87dp"
+        android:layout_height="34dp"
+        android:layout_x="209dp"
+        android:layout_y="430dp"
+        android:text="Button" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_x="190dp"
+        android:layout_y="426dp"
+        android:src="@raw/fbgoto" />
+
+</AbsoluteLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@raw/third"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="183dp"
+        android:text="This is scientific symbol recognition app
+        ,Just draw gesture! " />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="210dp"
+        android:layout_height="32dp"
+        android:layout_x="60dp"
+        android:layout_y="62dp"
+        android:text="Button" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_x="44dp"
+        android:layout_y="52dp"
+        android:src="@raw/aboutsymb" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="334dp"
+        android:layout_height="355dp"
+        android:layout_x="-7dp"
+        android:layout_y="64dp"
+        android:src="@raw/bck1" />
+
+    <Button
+        android:id="@+id/bx1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="216dp"
+        android:layout_y="432dp"
+        android:text="Button" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="77dp"
+        android:layout_height="58dp"
+        android:layout_x="212dp"
+        android:layout_y="420dp"
+        android:src="@raw/fbgoto" />
+
+</AbsoluteLayout>

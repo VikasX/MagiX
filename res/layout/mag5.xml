@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@raw/pg5"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        android:layout_x="73dp"
+        android:layout_y="290dp"
+        android:src="@android:drawable/arrow_up_float" />
+
+    <ImageView
+        android:id="@+id/i2"
+        android:layout_width="59dp"
+        android:layout_height="29dp"
+        android:layout_x="54dp"
+        android:layout_y="408dp"
+        android:src="@android:drawable/arrow_up_float" />
+
+    <ImageView
+        android:id="@+id/i3"
+        android:layout_width="71dp"
+        android:layout_height="32dp"
+        android:layout_x="203dp"
+        android:layout_y="407dp"
+        android:src="@android:drawable/arrow_up_float" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="76dp"
+        android:layout_height="46dp"
+        android:layout_weight="1"
+        android:layout_x="150dp"
+        android:layout_y="281dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:text=""
+        android:textSize="10pt" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="129dp"
+        android:layout_height="40dp"
+        android:layout_x="22dp"
+        android:layout_y="402dp"
+        android:src="@raw/playagain" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="119dp"
+        android:layout_height="40dp"
+        android:layout_x="177dp"
+        android:layout_y="404dp"
+        android:src="@raw/mainmenu" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="34dp"
+        android:layout_height="25dp"
+        android:layout_x="72dp"
+        android:layout_y="288dp"
+        android:src="@raw/buttons" />
+
+</AbsoluteLayout>
